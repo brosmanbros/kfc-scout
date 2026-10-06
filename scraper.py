@@ -18,52 +18,72 @@ def clasificar(m2: float, texto: str):
     t = texto.lower()
     if any(k in t for k in ["ejidal", "cesion de derechos", "comunal"]):
         return None, None
+        
     if 70 <= m2 <= 149:
         return "plaza", "Plaza / Food Court"
     elif 150 <= m2 < 500:
         return "street", "Street Front"
     elif 500 <= m2 <= 1500:
-        return "freestanding", "Free-Standing (Auto-Express)"
+        return "freestanding", "Free-Standing (Drive-Thru)"
+        
+    # Si no especificó metros claros en el listado pero es comercial
+    if m2 == 0:
+        if any(k in t for k in ["plaza", "isla", "food court"]):
+            return "plaza", "Plaza / Food Court (Verificar m²)"
+        elif any(k in t for k in ["terreno", "lote", "bodega", "drive"]):
+            return "freestanding", "Free-Standing (Verificar m²)"
+        return "street", "Street Front (Verificar m²)"
+        
     return None, None
 
 async def scrapear_zona(page, zona):
     locales_zona = []
     try:
-        await page.goto(zona["url"], wait_until="domcontentloaded", timeout=30000)
-        await page.wait_for_timeout(2000)
+        await page.goto(zona["url"], wait_until="networkidle", timeout=45000)
+        await page.wait_for_timeout(3000)
         
-        cards = await page.query_selector_all(".ui-search-result__wrapper, .ui-search-layout__item")
-        for card in cards[:15]:
-            t_elem = await card.query_selector(".ui-search-item__title, h2")
-            p_elem = await card.query_selector(".price-tag-fraction")
-            a_elem = await card.query_selector(".ui-search-card-attributes")
-            l_elem = await card.query_selector("a.ui-search-link")
+        cards = await page.query_selector_all("li.ui-search-layout__item, div.ui-search-result__wrapper")
+        print(f"[{zona['nombre']}] Encontradas {len(cards)} publicaciones.")
+        
+        for card in cards[:20]:
+            texto_tarjeta = await card.inner_text()
+            link_elem = await card.query_selector("a.ui-search-link, a")
+            link = await link_elem.get_attribute("href") if link_elem else ""
             
-            titulo = (await t_elem.inner_text()).strip() if t_elem else ""
-            precio = f"${(await p_elem.inner_text()).strip()} MXN" if p_elem else "Consultar"
-            attrs = (await a_elem.inner_text()).strip() if a_elem else ""
-            link = await l_elem.get_attribute("href") if l_elem else ""
+            if link and "#" in link:
+                link = link.split("#")[0]
+                
+            match_precio = re.search(r"\$\s*([\d,.]+)", texto_tarjeta)
+            precio = f"${match_precio.group(1)} MXN" if match_precio else "A consultar"
             
-            texto_completo = f"{titulo} {attrs}"
-            match = re.search(r"(\d+)\s*(?:m²|m2|metros)", texto_completo, re.IGNORECASE)
-            m2 = float(match.group(1)) if match else 0.0
+            match_m2 = re.search(r"(\d+(?:[.,]\d+)?)\s*(?:m²|m2|mts|metros)", texto_tarjeta, re.IGNORECASE)
+            m2 = 0.0
+            if match_m2:
+                try:
+                    m2 = float(match_m2.group(1).replace(",", ""))
+                except ValueError:
+                    m2 = 0.0
             
-            proto_key, proto_label = clasificar(m2, texto_completo)
+            h2 = await card.query_selector("h2")
+            titulo = (await h2.inner_text()).strip() if h2 else texto_tarjeta.split("\n")[0][:80]
+            
+            proto_key, proto_label = clasificar(m2, texto_tarjeta)
+            
             if proto_key:
                 locales_zona.append({
-                    "id": abs(hash(link)) % 1000000,
+                    "id": abs(hash(link or titulo)) % 1000000,
                     "titulo": titulo,
                     "municipio": zona["slug"],
                     "zona_label": zona["nombre"],
-                    "m2": int(m2),
+                    "m2": int(m2) if m2 > 0 else "N/D",
                     "prototipo": proto_key,
                     "proto_label": proto_label,
                     "precio": precio,
-                    "url": link,
+                    "url": link or zona["url"],
                     "status": "nuevo",
-                    "es_esquina": "esquina" in texto_completo.lower(),
-                    "parking": any(k in texto_completo.lower() for k in ["estacionamiento", "cajones", "aparcamiento"]),
-                    "nota": attrs[:120] if attrs else "Sin detalles adicionales"
+                    "es_esquina": "esquina" in texto_tarjeta.lower(),
+                    "parking": any(k in texto_tarjeta.lower() for k in ["estacionamiento", "cajones", "aparcamiento", "autos"]),
+                    "nota": texto_tarjeta.replace("\n", " ")[:140] + "..."
                 })
     except Exception as e:
         print(f"Error procesando {zona['nombre']}: {e}")
@@ -72,22 +92,25 @@ async def scrapear_zona(page, zona):
 
 async def main():
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-setuid-sandbox"]
+        )
         context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800}
         )
         page = await context.new_page()
         
         todos_locales = []
         for z in ZONAS:
-            print(f"Rastreando: {z['nombre']}...")
+            print(f"Scrapeando: {z['nombre']}...")
             res = await scrapear_zona(page, z)
             todos_locales.extend(res)
             
         await browser.close()
         
-        # Deduplicar por URL
-        unicos = list({v["url"]: v for v in todos_locales}.values())
+        unicos = list({v["url"]: v for v in todos_locales if v["url"]}.values())
         
         payload = {
             "fecha_actualizacion": datetime.now().strftime("%d/%m/%Y %H:%M"),
@@ -98,7 +121,7 @@ async def main():
         with open("data.json", "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
             
-        print(f"Completado: {len(unicos)} locales guardados en data.json")
+        print(f"Total procesado con éxito: {len(unicos)} locales.")
 
 if __name__ == "__main__":
     asyncio.run(main())
