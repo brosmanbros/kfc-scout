@@ -1,9 +1,9 @@
 {
-  "fecha_actualizacion": "08/10/2026 19:11",
-  "total": 46,
+  "fecha_actualizacion": "09/10/2026 18:42",
+  "total": 47,
   "locales": [
     {
-      "id": 773827,
+      "id": 625553,
       "titulo": "PUBLICADO ESTA SEMANA",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -18,7 +18,7 @@
       "nota": "PUBLICADO ESTA SEMANA Edificio en renta Se Renta Edificio Comercial En Iztapalapa. MXN 65,000 482 m² construidos Escuadrón 201, Iztapalapa, ..."
     },
     {
-      "id": 589704,
+      "id": 222761,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -33,7 +33,7 @@
       "nota": "Local comercial en renta Local Comercial En Renta Iztapalapa Cdmx MXN 90,300 258 m² construidos San Lorenzo Tezonco, Iztapalapa, Distrito Fe..."
     },
     {
-      "id": 551552,
+      "id": 308758,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -48,7 +48,7 @@
       "nota": "Local comercial en renta Local En Renta En Iztapalapa MXN 23,451,033 258 m² construidos El Manto, Iztapalapa, Distrito Federal..."
     },
     {
-      "id": 157465,
+      "id": 486348,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -63,7 +63,7 @@
       "nota": "Local comercial en renta Local Comercia En Renta En Iztapalapa MXN 39,500 2 baños 142 m² construidos Guadalupe Del Moral, Iztapalapa, Distri..."
     },
     {
-      "id": 93319,
+      "id": 795622,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -78,7 +78,7 @@
       "nota": "Local comercial en renta Renta Local Comercial Ermita Iztapalapa MXN 286,650 637 m² construidos El Santuario, Iztapalapa, Distrito Federal..."
     },
     {
-      "id": 566737,
+      "id": 845170,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -93,7 +93,7 @@
       "nota": "Local comercial en renta Local En Renta, Leyes De Reforma Iztapalapa, 100m MXN 22,000 1 baño 100 m² construidos Leyes De Reforma 1a Sección,..."
     },
     {
-      "id": 464161,
+      "id": 200635,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -108,7 +108,7 @@
       "nota": "Local comercial en renta Local En Renta En Ermita Iztapalapa MXN 90,000 2 baños 220 m² construidos Eje Sur 8 Al 2500, Iztapalapa, Distrito F..."
     },
     {
-      "id": 322417,
+      "id": 721922,
       "titulo": "Local comercial en renta",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -123,7 +123,7 @@
       "nota": "Local comercial en renta Local En Iztapalapa MXN 24,000 2 baños 170 m² construidos Pozos, Iztapalapa Buena Vista, Iztapalapa, Distrito Feder..."
     },
     {
-      "id": 696989,
+      "id": 392426,
       "titulo": "PUBLICADO ESTA SEMANA",
       "municipio": "iztapalapa",
       "zona_label": "Iztapalapa",
@@ -138,7 +138,7 @@
       "nota": "PUBLICADO ESTA SEMANA Oficina en renta Oficina En Dr. Alfonso Ortiz Tirado, Cerca De Plaza Tezontle, Iztapalapa Cdmx MXN 16,300 1 baño 79 m²..."
     },
     {
-      "id": 281080,
+      "id": 273421,
       "titulo": "Oficina en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -153,7 +153,7 @@
       "nota": "Oficina en renta Oficina Comercial En Renta En Coapa Tlalpan Ciudad De México. MXN 371,200 928 m² construidos Anillo Periférico, Guadalupe, ..."
     },
     {
-      "id": 833133,
+      "id": 609684,
       "titulo": "Oficina en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -168,7 +168,7 @@
       "nota": "Oficina en renta Oficina Comercial En Renta En Coapa Tlalpan Ciudad De México. MXN 250,560 928 m² construidos Anillo Periférico, Guadalupe, ..."
     },
     {
-      "id": 308139,
+      "id": 739423,
       "titulo": "Oficina en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -183,7 +183,7 @@
       "nota": "Oficina en renta Oficina Comercial En Renta En Coapa Tlalpan Ciudad De México. MXN 371,200 928 m² construidos Anillo Periférico, Guadalupe, ..."
     },
     {
-      "id": 562220,
+      "id": 305868,
       "titulo": "Otro inmueble en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -198,22 +198,7 @@
       "nota": "Otro inmueble en renta Colegio Paulo Freire Para Escuela, Oficinas, Fabrica, Despachos, Consultorios, Etc MXN 50,000 950 m² construidos C. 6..."
     },
     {
-      "id": 35827,
-      "titulo": "PUBLICADO ESTA SEMANA",
-      "municipio": "tlalpan",
-      "zona_label": "Tlalpan",
-      "m2": 98,
-      "prototipo": "plaza",
-      "proto_label": "Plaza / Food Court",
-      "precio": "A consultar",
-      "url": "https://departamento.mercadolibre.com.mx/MLM-6328292528-departamento-en-renta-en-granjas-coapa-_JM",
-      "status": "nuevo",
-      "es_esquina": false,
-      "parking": false,
-      "nota": "PUBLICADO ESTA SEMANA Departamento en renta Departamento En Renta En Granjas Coapa MXN 35,000 3 recámaras 2 baños 98 m² construidos Calz. De..."
-    },
-    {
-      "id": 999807,
+      "id": 915082,
       "titulo": "Oficina en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -228,7 +213,7 @@
       "nota": "Oficina en renta Oficina Acondicionada En Jardines De La Montaña De 275 M2 Con Seguridad 24 Horas US$ 5,775 275 m² construidos Tlalpan, Jard..."
     },
     {
-      "id": 717123,
+      "id": 68678,
       "titulo": "Casa en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -243,7 +228,7 @@
       "nota": "Casa en renta Casa Amueblada En Renta En Toriello Guerra, Tlalpan, Cdmx MXN 22,000 2 recámaras 1 baño 100 m² construidos Cto Tesoreros 133, ..."
     },
     {
-      "id": 824653,
+      "id": 670653,
       "titulo": "Oficina en renta",
       "municipio": "tlalpan",
       "zona_label": "Tlalpan",
@@ -258,7 +243,22 @@
       "nota": "Oficina en renta Oficina De 125m2 En Renta En Insurgentes Sur MXN 24,000 88 m² construidos Insurgentes Sur 4126 - 401, Tlalpan Centro, Tlalp..."
     },
     {
-      "id": 598981,
+      "id": 832534,
+      "titulo": "PUBLICADO ESTA SEMANA",
+      "municipio": "tlalpan",
+      "zona_label": "Tlalpan",
+      "m2": 300,
+      "prototipo": "street",
+      "proto_label": "Street Front",
+      "precio": "A consultar",
+      "url": "https://inmueble.mercadolibre.com.mx/MLM-3593001031-oficinas-de-lujo-en-renta-desde-300m2-edificio-aaa-pedregal-_JM",
+      "status": "nuevo",
+      "es_esquina": false,
+      "parking": false,
+      "nota": "PUBLICADO ESTA SEMANA Oficina en renta Oficinas De Lujo En Renta Desde 300m2 Edificio Aaa Pedregal MXN 110,000 800 m² de terreno Alborada, P..."
+    },
+    {
+      "id": 135041,
       "titulo": "Oficina en renta",
       "municipio": "neza",
       "zona_label": "Nezahualcóyotl",
@@ -273,7 +273,7 @@
       "nota": "Oficina en renta Oficina Comercial En Renta En Metropolitana Segunda Sección, Nezahualcóyotl, México MXN 25,000 2 baños 191 m² construidos A..."
     },
     {
-      "id": 79575,
+      "id": 812580,
       "titulo": "Casa en renta",
       "municipio": "neza",
       "zona_label": "Nezahualcóyotl",
@@ -288,7 +288,7 @@
       "nota": "Casa en renta Inmueble Productivo En Renta! Bosques De Los Continentes, Bosques De Aragón. MXN 45,000 1 baño 75 m² construidos Bosques De Lo..."
     },
     {
-      "id": 444027,
+      "id": 357722,
       "titulo": "Otro inmueble en renta",
       "municipio": "neza",
       "zona_label": "Nezahualcóyotl",
@@ -303,7 +303,37 @@
       "nota": "Otro inmueble en renta Muro Publicitario Con Excelente Impacto Vial MXN 7,000 72 m² construidos Av. Texcoco 2, Atlacomulco, Cdad. Nezahualcó..."
     },
     {
-      "id": 771457,
+      "id": 84140,
+      "titulo": "Local comercial en renta",
+      "municipio": "neza",
+      "zona_label": "Nezahualcóyotl",
+      "m2": 200,
+      "prototipo": "street",
+      "proto_label": "Street Front",
+      "precio": "A consultar",
+      "url": "https://inmueble.mercadolibre.com.mx/MLM-5989510622-rento-local-comercial-en-colonia-reforma-cd-nezahualcoyotl-_JM",
+      "status": "nuevo",
+      "es_esquina": false,
+      "parking": false,
+      "nota": "Local comercial en renta Rento Local Comercial En Colonia Reforma, Cd. Nezahualcóyotl MXN 40,000 1 baño 200 m² construidos Av. Floresta 234,..."
+    },
+    {
+      "id": 997272,
+      "titulo": "Bodega en renta",
+      "municipio": "neza",
+      "zona_label": "Nezahualcóyotl",
+      "m2": 235,
+      "prototipo": "street",
+      "proto_label": "Street Front",
+      "precio": "A consultar",
+      "url": "https://inmueble.mercadolibre.com.mx/MLM-3329359227-rento-local-comercial-a-pie-de-calle-metropolitana-cd-nezahualcoyotl-_JM",
+      "status": "nuevo",
+      "es_esquina": false,
+      "parking": false,
+      "nota": "Bodega en renta Rento Local Comercial A Pie De Calle Metropolitana, Cd. Nezahualcóyotl MXN 85,000 1 baño 235 m² construidos Av. Adolfo López..."
+    },
+    {
+      "id": 912824,
       "titulo": "PUBLICADO ESTA SEMANA",
       "municipio": "neza",
       "zona_label": "Nezahualcóyotl",
@@ -318,7 +348,7 @@
       "nota": "PUBLICADO ESTA SEMANA Casa en renta Casa En Renta En Bosques De Aragon, Nezahualcoyotl, Estado De México. MXN 18,500 3 recámaras 2 baños 88 ..."
     },
     {
-      "id": 389064,
+      "id": 910711,
       "titulo": "Casa en renta",
       "municipio": "neza",
       "zona_label": "Nezahualcóyotl",
@@ -333,7 +363,7 @@
       "nota": "Casa en renta Casa En Renta Campestre Guadalupana, Esquina, Cerca Metro Impulsora Av. Central MXN 15,500 3 recámaras 1 baño 255 m² construid..."
     },
     {
-      "id": 271711,
+      "id": 301995,
       "titulo": "Otro inmueble en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -348,7 +378,7 @@
       "nota": "Otro inmueble en renta Renta De Terreno Comercial En Chalco Centro, Estado De Mexico MXN 60,000 350 m² construidos Chalco Centro, Chalco De ..."
     },
     {
-      "id": 873727,
+      "id": 772316,
       "titulo": "Bodega en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -363,7 +393,7 @@
       "nota": "Bodega en renta Bodega Comercial En El Chalco MXN 50,000 4 baños 500 m² de terreno Carretera Chalco Tlahuac, Chalco, Estado De México Destac..."
     },
     {
-      "id": 408137,
+      "id": 193853,
       "titulo": "Local comercial en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -378,7 +408,7 @@
       "nota": "Local comercial en renta Locales Comerciales Valle De Chalco MXN 58,000 2 baños 185 m² construidos Av Cuauhtemoc, Chalco, Estado De México D..."
     },
     {
-      "id": 782454,
+      "id": 274377,
       "titulo": "Bodega en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -393,7 +423,7 @@
       "nota": "Bodega en renta Bodega Almacen Comercial O Industrial MXN 80,000 2 baños 150 m² construidos C. Mariano Matamoros 18, MZ 021, Chalco Centro, ..."
     },
     {
-      "id": 250331,
+      "id": 643507,
       "titulo": "Local comercial en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -408,7 +438,7 @@
       "nota": "Local comercial en renta Local Comercial Con Espacio Par Drive Thru MXN 35,000 2 baños 135 m² construidos Carr Federal Cuautla-México 700, L..."
     },
     {
-      "id": 205477,
+      "id": 324198,
       "titulo": "Local comercial en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -423,7 +453,7 @@
       "nota": "Local comercial en renta Renta De Local Comercial En Chalco Estado De México MXN 30,000 2 baños 300 m² construidos Chalco Centro, Chalco De ..."
     },
     {
-      "id": 372608,
+      "id": 169310,
       "titulo": "Local comercial en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -438,7 +468,7 @@
       "nota": "Local comercial en renta Local Comercial En Renta En Chalco MXN 30,000 2 baños 300 m² construidos Chalco De Díaz Covarrubias Centro, Chalco,..."
     },
     {
-      "id": 502118,
+      "id": 136649,
       "titulo": "Local comercial en renta",
       "municipio": "chalco",
       "zona_label": "Chalco",
@@ -453,7 +483,7 @@
       "nota": "Local comercial en renta Renta Local Comercial 10 Ambientes Chalco De Díaz Covarrubias Centro IAD México  MXN 80,000 2 baños 300 m² construi..."
     },
     {
-      "id": 132373,
+      "id": 354856,
       "titulo": "Local comercial en renta",
       "municipio": "ixtapaluca",
       "zona_label": "Ixtapaluca",
@@ -468,7 +498,7 @@
       "nota": "Local comercial en renta Se Renta Propiedad Para Gimnasio, Tienda De Conveniencia, Clínica, Etc. MXN 40,000 5 baños 550 m² construidos Casca..."
     },
     {
-      "id": 295300,
+      "id": 740941,
       "titulo": "Bodega en renta",
       "municipio": "ixtapaluca",
       "zona_label": "Ixtapaluca",
@@ -483,7 +513,7 @@
       "nota": "Bodega en renta 663265 Renta Bodega Comercial, Feliciana Paul, Jardin Industrial, Ixtapaluca Edo. De Mexico MXN 39,900 2 baños 500 m² constr..."
     },
     {
-      "id": 418924,
+      "id": 352639,
       "titulo": "Bodega en renta",
       "municipio": "ixtapaluca",
       "zona_label": "Ixtapaluca",
@@ -498,7 +528,7 @@
       "nota": "Bodega en renta 691390, Renta Bodega Comercial, Feliciana Paul, Jardin Industrial, Ixtapaluca Edo. De Mexico MXN 39,900 2 baños 500 m² const..."
     },
     {
-      "id": 295238,
+      "id": 166456,
       "titulo": "Bodega en renta",
       "municipio": "ixtapaluca",
       "zona_label": "Ixtapaluca",
@@ -513,7 +543,7 @@
       "nota": "Bodega en renta Bodega En Renta En Ixtapaluca MXN 190,030 1,226 m² construidos Bodega EN Renta EN Ixtapaluca, Ixtapaluca, Estado De México..."
     },
     {
-      "id": 66507,
+      "id": 514001,
       "titulo": "Local comercial en renta",
       "municipio": "la_paz",
       "zona_label": "La Paz",
@@ -528,7 +558,7 @@
       "nota": "Local comercial en renta Se Rentan Locales Comerciales En Los Reyes Estado De México MXN 227,500 1,300 m² construidos - S/N, Ampliación Los ..."
     },
     {
-      "id": 125886,
+      "id": 571890,
       "titulo": "Bodega en renta",
       "municipio": "la_paz",
       "zona_label": "La Paz",
@@ -543,22 +573,7 @@
       "nota": "Bodega en renta Bodega Comercial En Renta En Los Reyes Acaquilpan Centro, La Paz, México MXN 250,000 1,000 m² construidos Carretera Mexico P..."
     },
     {
-      "id": 997603,
-      "titulo": "Bodega en renta",
-      "municipio": "la_paz",
-      "zona_label": "La Paz",
-      "m2": 920,
-      "prototipo": "freestanding",
-      "proto_label": "Free-Standing (Drive-Thru)",
-      "precio": "$55,000 MXN",
-      "url": "https://inmueble.mercadolibre.com.mx/MLM-3290173425-bodega-en-renta-920-m2-los-reyes-la-paz-55000-iva-_JM",
-      "status": "nuevo",
-      "es_esquina": false,
-      "parking": false,
-      "nota": "Bodega en renta Bodega En Renta 920 M2 | Los Reyes La Paz | $55,000 + Iva MXN 55,000 1 baño 1,000 m² construidos Puente Tecamachalco, Tecama..."
-    },
-    {
-      "id": 585492,
+      "id": 485826,
       "titulo": "Otro inmueble en renta",
       "municipio": "la_paz",
       "zona_label": "La Paz",
@@ -573,7 +588,7 @@
       "nota": "Otro inmueble en renta Nave Industrial En Renta En Los Reyes Acaquilpan Centro pulppo  MXN 185,000 1,000 m² construidos Carretera Federal Mé..."
     },
     {
-      "id": 922737,
+      "id": 974569,
       "titulo": "Local comercial en renta",
       "municipio": "la_paz",
       "zona_label": "La Paz",
@@ -588,7 +603,7 @@
       "nota": "Local comercial en renta Local - Valle De Los Reyes MXN 90,000 1,015 m² de terreno Calle18 #19, Valle De Los Reyes, La Paz, Estado De México..."
     },
     {
-      "id": 809675,
+      "id": 426627,
       "titulo": "Terreno en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
@@ -603,7 +618,7 @@
       "nota": "Terreno en renta Terreno Comercial En Renta En Santa María Chimalhuacán, Chimalhuacán, México MXN 7,000 540 m² de terreno San Isidro, Santa ..."
     },
     {
-      "id": 27809,
+      "id": 197690,
       "titulo": "Terreno en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
@@ -618,7 +633,7 @@
       "nota": "Terreno en renta Terreno Comercial En Renta En Santa María Chimalhuacán, Chimalhuacán, México MXN 7,000 540 m² de terreno San Isidro, Santa ..."
     },
     {
-      "id": 413322,
+      "id": 253802,
       "titulo": "Terreno en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
@@ -633,7 +648,7 @@
       "nota": "Terreno en renta Terreno Comercial En Renta En Santa María Chimalhuacán, Chimalhuacán, México MXN 10,000 540 m² de terreno San Isidro, Santa..."
     },
     {
-      "id": 129544,
+      "id": 569557,
       "titulo": "Local comercial en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
@@ -648,7 +663,7 @@
       "nota": "Local comercial en renta Local Comercial En Renta En Chimalhuacán MXN 51,700 3 baños 220 m² construidos Castillo De Chapultepec 0, Chimalhua..."
     },
     {
-      "id": 114189,
+      "id": 468648,
       "titulo": "Bodega en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
@@ -663,7 +678,7 @@
       "nota": "Bodega en renta Bodega En Renta O Venta Chimalhuacan MXN 21,000 280 m² construidos Acuitlapilco Primera Sección, Chimalhuacán, Estado De Méx..."
     },
     {
-      "id": 455820,
+      "id": 439719,
       "titulo": "Local comercial en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
@@ -678,7 +693,7 @@
       "nota": "Local comercial en renta Local En Renta En San Lorenzo, Chimalhuacán, México MXN 28,000 1 baño 155 m² construidos Avenida El Puerto 8, San L..."
     },
     {
-      "id": 297005,
+      "id": 391372,
       "titulo": "Local comercial en renta",
       "municipio": "chimalhuacan",
       "zona_label": "Chimalhuacán",
